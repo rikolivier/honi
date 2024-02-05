@@ -63,6 +63,9 @@ hr {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
+  /* // TODO fix resize image */
+  width: auto;
+  height: 100px;
 }
 
 a {
