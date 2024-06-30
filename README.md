@@ -1,3 +1,6 @@
+TLDR: A simple static website created for HONI based on 11ty
+
+
 Vereniging HONI ’42-’49
 Herdenking Oorlogsslachtoffers Nederlands-Indië
 
