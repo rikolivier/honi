@@ -6,29 +6,33 @@
   }
 </style>
 <nav>
+ 
   <div class="nav__logo">
     <a href="/">Honi '42-'49</a>
     <i>Herdenking Oorlogsslachtoffers Nederlands-Indië</i>
     <span class="material-symbols-outlined" id="menu">menu</span>
   </div>
   <div id="nav-menu">
-    <a href="/vereniging">Vereniging HONI '42-49'</a>
-    <a href="/bestuur">Bestuur</a>
-    <a href="/herdenken">Waarom herdenken?</a>
-    <a href="/bamboetakje">Waarom het bamboetakje?</a>
-    <a href="/inschrijfformulier">Lid of donateur worden?</a>
-    <a href="/nieuws">Actuele informatie</a>
-    <a href="/toespraken">Toespraken herdenkingen</a>
+    <a href="/vereniging" class="{{ 'active' if link === "vereniging"}}">Vereniging HONI '42-49'</a>
+    <a href="/bestuur" class="{{ 'active' if title === "Bestuur"}}">Bestuur</a>
+    <a href="/herdenken"class="{{ 'active' if link === "herdenken"}}">Waarom herdenken?</a>
+    <a href="/bamboetakje" class="{{ 'active' if link === "bamboe"}}">Waarom het bamboetakje?</a>
+    <a href="/inschrijfformulier" class="{{ 'active' if link === "lid"}}">Lid of donateur worden?</a>
+    
+    <a href="/nieuws" class="{{ 'active' if link === "nieuws"}}">
+      Actuele informatie
+    </a>
+    <a href="/toespraken" class="{{ 'active' if title === "Toespraken"}}">Toespraken herdenkingen</a>
     <!-- toespraken -->
-    <a href="/verhalen">Oorlogs verhalen</a>
+    <a href="/verhalen" class="{{ 'active' if link === "verhalen"}}">Oorlogs verhalen</a>
     <!-- <a href="">Foto's & video's</a>-->
     <a href="/educatie"
-      >Educatie project <br />
+      class="{{ 'active' if link === "educatie"}}">Educatie project <br />
       De "Vergeten" Oorlog</a
     >
-    <a href="/archive">Archief</a>
-    <a href="/privacyverklaring">Privacyverklaring</a>
-    <a href="/huishoudelijkreglement">Huishoudelijk Reglement</a> 
+    <a href="/archive" class="{{ 'active' if title === "Archive"}}">Archief</a>
+    <a href="/privacyverklaring" class="{{ 'active' if title === "Privacyverklaring"}}">Privacyverklaring</a>
+    <a href="/huishoudelijkreglement" class="{{ 'active' if link === "reglement"}}">Huishoudelijk Reglement</a>
   </div>
 </nav>
 <script>
