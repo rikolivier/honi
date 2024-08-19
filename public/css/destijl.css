@@ -54,8 +54,15 @@ hr {
   justify-content: space-between;
 }
 
-.bestuur__element strong {
+em {
+  font-style: italic;
+}
+
+strong {
   font-family: "Montserrat", sans-serif;
+}
+
+.bestuur__element strong {
   color: #36312d;
 }
 
@@ -109,7 +116,7 @@ nav a {
 }
 
 nav a.active {
-  color:#abc476;
+  color: #abc476;
   text-decoration: underline;
 }
 
